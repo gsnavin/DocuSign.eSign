@@ -8,8 +8,8 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = "DocuSignESignClient"
-    s.version          = "1.0.0"
+    s.name             = "DocuSign.eSign"
+    s.version          = "1.0.1"
 
     s.summary          = "DocuSign REST API"
     s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     s.framework    = 'SystemConfiguration'
     
     s.homepage     = "https://www.docusign.com/developer-center"
-    s.license      = "MIT"
+    s.license      = "LICENSE"
     s.source       = { :git => "https://github.com/gsnavin/DocuSign.eSign.git", :tag => "#{s.version}" }
     s.author       = { "Dev Center" => "devcenter@docusign.com" }
 
